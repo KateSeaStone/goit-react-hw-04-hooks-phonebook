@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.main__title,
+.contacts__title {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}

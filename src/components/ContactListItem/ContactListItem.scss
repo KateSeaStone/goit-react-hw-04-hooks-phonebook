@@ -1,0 +1,33 @@
+.deleteBtn {
+  margin: 10px 0 0 20px;
+
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 29px;
+  height: 30px;
+  border: transparent;
+  font-family: inherit;
+
+  background-color: #2a2a2e30;
+  text-decoration: none;
+
+ }
+
+ .deleteBtn:focus {
+  background-color: #2196f3;
+  color: #ffff;
+  outline: none;
+  
+}
+
+.item {
+  display: flex;
+  align-items: baseline;
+}
+
+.contactInfo {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 16px;
+}

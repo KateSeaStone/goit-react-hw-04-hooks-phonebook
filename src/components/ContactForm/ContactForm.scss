@@ -1,0 +1,49 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.label__name {
+  font-size: 18px;
+  padding: 5px 0px;
+  font-weight: 400;
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.input__form {
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+}
+
+.input__form:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+}
+
+.addContactBtn {
+  margin-top: 20px;
+
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 29px;
+  height: 30px;
+  border: transparent;
+  font-family: inherit;
+
+  background-color: #2a2a2e30;
+  text-decoration: none;
+}
+
+.addContactBtn:focus {
+  background-color: #2196f3;
+  color: #ffff;
+  outline: none;
+}
